@@ -1,3 +1,6 @@
+--vim.cmd('set verbosefile=~/.config/nvim/plugin_load.log')
+--vim.cmd('set verbose=15')
+
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
   local lazyrepo = "https://github.com/folke/lazy.nvim.git"
