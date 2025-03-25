@@ -7,7 +7,7 @@ return {
           layout = {
             width = function()
               local win_width = vim.api.nvim_win_get_width(0) -- 获取当前窗口宽度
-              return math.max(math.floor(win_width * 0.2), 20) -- 取 20% 或最大 50
+              return math.max(math.floor(win_width * 0.20), 15) -- 取最小 20% 或最小 15
             end,
           },
         },
